@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Js_day_sixteen</title>
+  </head>
+  <body>
+    <script>
+      // and operator
+
+      let a = 5 & 1;
+      document.write(a);
+      let b = 5 | 1;
+      document.write(b);
+      let c = 5 ^ 1;
+      document.write(c);
+      let d = ~5;
+      document.write(d);
+      let e = 5 << 1;
+      document.write(e);
+      let f = -6 >> 1;
+      document.write(f);
+    </script>
+    <p>Binary numbers with only one bit set are easy to understand:</p>
+    <p>
+      Using String Methods In JavaScript, regular expressions are often used
+      with the two string methods: search() and replace(). The search() method
+      uses an expression to search for a match, and returns the position of the
+      match. The replace() method returns a modified string where the pattern is
+      replaced.
+    </p>
+    <p>
+      i Perform case-insensitive matching g Perform a global match (find all) m
+      Perform multiline matching d Perform start and end matching
+    </p>
+    <p>
+      Expression Description [abc] Find any of the characters between the
+      brackets [0-9] Find any of the digits between the brackets (x|y) Find any
+      of the alternatives separated with |
+    </p>
+    <p>
+      Metacharacter Description \d Find a digit \s Find a whitespace character
+      \b Find a match at the beginning of a word like this: \bWORD, or at the
+      end of a word like this: WORD\b \uxxxx Find the Unicode character
+      specified by the hexadecimal number xxxx Quantifiers define quantities:
+      Quantifier Description n+ Matches any string that contains at least one n
+      n* Matches any string that contains zero or more occurrences of n n?
+      Matches any string that contains zero or one occurrences of n
+    </p>
+    <p>
+      The test() method is a RegExp expression method. It searches a string for
+      a pattern, and returns true or false, depending on the result.
+    </p>
+    <p>
+      Using exec() The exec() method is a RegExp expression method. It searches
+      a string for a specified pattern, and returns the found text as an object.
+      If no match is found, it returns an empty (null) object.
+    </p>
+    <p>Please input a number between 5 and 10:</p>
+
+    <input id="demo" type="text">
+    <button type="button" onclick="myFunction()">Test Input</button>
+    <p id="p01"></p>
+    <script src="index.js"></script>
+  </body>
+</html>
